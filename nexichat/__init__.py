@@ -6,7 +6,6 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode
 import config
-import uvloop
 import time
 SUDOERS = filters.user()
 CLONE_OWNERS = {}
