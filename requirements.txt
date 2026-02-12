@@ -13,5 +13,5 @@ pyrogram
 psutil
 speedtest-cli
 telethon
-uvloop 0.22.1 
+uvloop==0.22.1 
 git+https://github.com/LonamiWebs/Telethon.git
