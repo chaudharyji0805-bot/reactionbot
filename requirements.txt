@@ -1,5 +1,4 @@
 Abg==2.3.1
-pyrogram
 pymongo
 motor
 requests
@@ -10,7 +9,8 @@ python-dotenv
 pycgi
 apscheduler
 Flask
-uvloop
+pyrogram==2.0.106
+tgcrypto==1.2.5
 psutil
 speedtest-cli
 telethon
