@@ -9,8 +9,7 @@ python-dotenv
 pycgi
 apscheduler
 Flask
-pyrogram==2.0.106
-tgcrypto==1.2.5
+pyrogram
 psutil
 speedtest-cli
 telethon
