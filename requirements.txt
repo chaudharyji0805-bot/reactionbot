@@ -14,4 +14,3 @@ psutil
 speedtest-cli
 telethon==1.36.0
 uvloop==0.22.1 
-git+https://github.com/LonamiWebs/Telethon.git
