@@ -25,7 +25,6 @@ import time
 
 SUDOERS = filters.user()
 CLONE_OWNERS = {}
-uvloop.install()
 
 logging.basicConfig(
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
