@@ -111,7 +111,7 @@ async def get_idclone_owner(clone_id):
 class nexichat(Client):
     def __init__(self):
         super().__init__(
-            name="nexichat",
+            name="reaction",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
