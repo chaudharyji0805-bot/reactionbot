@@ -6,8 +6,21 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode
 import config
-import uvloop
 import time
+import asyncio
+
+try:
+    import uvloop
+    asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+except Exception:
+    pass
+
+try:
+    asyncio.get_running_loop()
+except RuntimeError:
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+
 SUDOERS = filters.user()
 CLONE_OWNERS = {}
 uvloop.install()
